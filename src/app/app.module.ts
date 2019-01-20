@@ -15,6 +15,16 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
 
+
+// Servicios
+import { ServiceModule } from './services/service.module';
+
+
+
+
+
+
+
 // import { GraficoDonaComponent } from './components/grafico-dona/grafico-dona.component';
 
 
@@ -30,7 +40,8 @@ import { RegisterComponent } from './login/register.component';
     BrowserModule,
     APP_Routes,
     PagesModule,
-    FormsModule
+    FormsModule,
+    ServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]
