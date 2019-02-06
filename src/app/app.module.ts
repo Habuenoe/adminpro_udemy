@@ -25,6 +25,8 @@ import { ServiceModule } from './services/service.module';
 
 
 
+
+
 // import { GraficoDonaComponent } from './components/grafico-dona/grafico-dona.component';
 
 
@@ -32,7 +34,9 @@ import { ServiceModule } from './services/service.module';
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent,
+    RegisterComponent
+
+
     // GraficoDonaComponent
 
   ],
